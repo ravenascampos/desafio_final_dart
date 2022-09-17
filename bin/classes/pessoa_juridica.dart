@@ -1,5 +1,5 @@
 import 'endereco.dart';
-import '../pessoa.dart';
+import 'pessoa.dart';
 
 class PessoaJuridica implements Pessoa {
   String razaoSocial;

@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'classes/endereco.dart';
-import 'classes/pessoa_fisica.dart';
-import 'funcoes/cadastrar_endereco.dart';
-import 'funcoes/validacoes.dart';
+import '../classes/endereco.dart';
+import '../classes/pessoa_fisica.dart';
+import 'cadastrar_endereco.dart';
+import 'validacoes.dart';
 
 PessoaFisica cadastrarPessoaFisica() {
   print('Informe o nome completo:');

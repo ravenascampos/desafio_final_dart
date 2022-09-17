@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'cadastrar_empresa.dart';
+import 'funcoes/cadastrar_empresa.dart';
 import 'classes/empresa.dart';
 
 List<Empresa> empresas = [];

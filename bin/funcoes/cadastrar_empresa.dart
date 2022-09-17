@@ -4,12 +4,12 @@ import 'package:uuid/uuid.dart';
 
 import 'cadastrar_pessoa_fisica.dart';
 import 'cadastrar_pessoa_juridica.dart';
-import 'classes/empresa.dart';
-import 'classes/endereco.dart';
-import 'funcoes/cadastrar_endereco.dart';
-import 'funcoes/mascaras.dart';
-import 'funcoes/validacoes.dart';
-import 'pessoa.dart';
+import '../classes/empresa.dart';
+import '../classes/endereco.dart';
+import 'cadastrar_endereco.dart';
+import 'mascaras.dart';
+import 'validacoes.dart';
+import '../classes/pessoa.dart';
 
 Empresa cadastrarEmpresa() {
   print('Informe a Razão Social:');

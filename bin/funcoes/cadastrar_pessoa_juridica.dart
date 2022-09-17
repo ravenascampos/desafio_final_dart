@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'classes/endereco.dart';
-import 'classes/pessoa_juridica.dart';
-import 'funcoes/cadastrar_endereco.dart';
-import 'funcoes/validacoes.dart';
+import '../classes/endereco.dart';
+import '../classes/pessoa_juridica.dart';
+import 'cadastrar_endereco.dart';
+import 'validacoes.dart';
 
 PessoaJuridica cadastrarPessoaJuridica() {
   print('Informe a Razão Social:');

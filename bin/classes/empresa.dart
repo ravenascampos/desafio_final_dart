@@ -1,5 +1,5 @@
 import 'endereco.dart';
-import '../pessoa.dart';
+import 'pessoa.dart';
 
 class Empresa {
   String id;
